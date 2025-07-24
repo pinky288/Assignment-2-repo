@@ -110,6 +110,7 @@ letter-spacing: 0%;
 .plants-card-container{
     display: flex;
     gap: 50px;
+    font-family: inter;
     
 }
 .plants-card{
@@ -118,20 +119,28 @@ letter-spacing: 0%;
 }
 .card-section{
     margin: 50px 0;
+    width: 270px;
+    
+    
 }
 .card-price{
     display: block;
     font-weight: 600;
-    font-size: 20px;
-    margin-bottom: 12px;
-    font-family: inter;
-    
-
+    font-size: 15px;
+    margin: 10px 0px;
+    font-family: inter;   
+}
+.plants-card button{
+    background-color: rgb(233, 90, 8);
+    color: white;
+    border: none;
+    width: 220px;
+    height: 50px;
 }
 
 .plants-card img{
-    width: 250px;
-height: 322.94px;
+    width: 220px;
+height: 322px;
 }
 
     .plants {
